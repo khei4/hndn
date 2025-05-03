@@ -1,3 +1,4 @@
+import "https://deno.land/std@0.203.0/dotenv/load.ts";
 import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
 import { Redis } from "https://deno.land/x/upstash_redis@v1.22.0/mod.ts";
 

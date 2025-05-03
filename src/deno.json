@@ -1,11 +1,11 @@
 {
   "tasks": {
-    "dev": "deno run --allow-net --allow-env --allow-import --allow-read src/main.ts"
+    "dev": "deno run --allow-net --allow-env --allow-import --allow-read main.ts"
   },
   "deploy": {
     "project": "e8720350-8d57-4664-aab2-b408a8cfe7e4",
     "exclude": ["**/node_modules"],
     "include": [],
-    "entrypoint": "src/main.ts"
+    "entrypoint": "main.ts"
   }
 }
