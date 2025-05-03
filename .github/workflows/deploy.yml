@@ -9,6 +9,7 @@ jobs:
   deploy:
     permissions:
       id-token: write # required
+      contents: read # required
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
