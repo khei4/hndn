@@ -18,5 +18,5 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: hndn
+          project: hndn.deno.dev
           entrypoint: src/main.ts
